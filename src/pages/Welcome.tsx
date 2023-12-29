@@ -1,3 +1,3 @@
 export function Welcome() {
-  return <>Welcome</>;
+  return <h1>Welcome to vite-react-starter with vitest!</h1>;
 }
