@@ -1,5 +1,3 @@
 export function Welcome() {
-  return (
-    <>Welcome</>
-  );
+  return <>Welcome</>;
 }
