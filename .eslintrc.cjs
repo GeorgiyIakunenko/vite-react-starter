@@ -1,6 +1,6 @@
 module.exports = {
     root: true,
-    env: { browser: true, es2020: true },
+    env: { browser: true, es2021: true },
     settings: {
         react: { version: 'detect' },
     },
@@ -8,11 +8,12 @@ module.exports = {
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
         'plugin:react-hooks/recommended',
+        'plugin:jsx-a11y/recommended',
         'plugin:react/recommended',
     ],
     ignorePatterns: ['dist', '.eslintrc.cjs'],
     parser: '@typescript-eslint/parser',
-    plugins: ['react-refresh','@typescript-eslint', 'simple-import-sort', 'react'],
+    plugins: ['react-refresh','@typescript-eslint', 'jsx-a11y', 'simple-import-sort', 'react'],
     rules: {
         'react-refresh/only-export-components': [
             'warn',
