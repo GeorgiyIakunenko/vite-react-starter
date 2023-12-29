@@ -1,4 +1,4 @@
-# Starter template for React with Vite configured with TypeScript, ESLint, Prettier, and React-Router.
+# Starter template for React with Vite configured with TypeScript, ESLint, Prettier, React-Router and Vitest for testing.
 
 ## Base alias with auto import set to `@` for `src` directory.
 
@@ -14,15 +14,7 @@
 
 ## React-Router configured using a Layout component for routes
 
-
-
-
-# Add Vitest 
-
-`npm i -D vitest`
-
-`npm i -D @types/jest`
-
-`npm i -D @testing-library/react`
-
-`npm i -D @testing-library/jest-dom`
+## Vitest config:
+- Jsdom and React-Testing-Library configured for testing
+- Vite config and setupTest modified
+- Basic test example added
