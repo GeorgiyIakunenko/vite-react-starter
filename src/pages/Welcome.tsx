@@ -1,3 +1,7 @@
 export function Welcome() {
-  return <>Welcome</>;
+  return (
+    <main>
+      <h1>Welcome to vite-react-starter!</h1>
+    </main>
+  );
 }
